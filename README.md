@@ -54,8 +54,8 @@
 The dataset has many different variables that relate to the movie ranging from cast and genre to budget and revenue. We can use these variables to gain an understanding of each movie. 
 
 ## Folder Structure
+![alt text](image-1.png)
 
-![alt text](image.png)
 
 
 ## Key files
@@ -145,9 +145,8 @@ The dataset has many different variables that relate to the movie ranging from c
 
 ## Credits 
 
-* We received support from our tutor Vasi Pavaloi for resolving project issues and understanding how to complete tasks.
+* We received support from our tutors Vasi Pavaloi for resolving project issues and understanding how to complete tasks.
 * We reference our course LMS system for help with best practice and code decsions.
-* Help from out tutor Neil
 * We used Chat GPT 4.0 and GitHub CoPilot to help with problems, explain errors, and explore different ways to write and (or improve) functions and code
 
 ### Content 
