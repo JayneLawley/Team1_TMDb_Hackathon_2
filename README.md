@@ -51,30 +51,23 @@
 | `tmdb_5000_credits.csv`  | 40.04MB| 3       | 4803 |
 | `tmdb_5000_movies.csv`   | 5.7MB  | 20      | 4803 |
 
-The dataset has many different variables that relate to the movie ranging from cast and genre to budget and revenue. We can use these variables to gain an understanding of each movie. 
-
-## Folder Structure
-![alt text](image-1.png)
-
-
-
-## Key files
-| File/Folder                            | Purpose/Description                                          |
-|----------------------------------------|--------------------------------------------------------------|
-| `Data/RAW/tmdb_5000_credits.csv`       | Raw credits data from TMDb                                   |
-| `Data/RAW/tmdb_5000_movies.csv`        | Raw movies data from TMDb                                    |
-| `Data/PROCESSED/movies_ready_for_EDA.csv` | Cleaned and feature-engineered dataset for analysis       |
-|`jupyter_notebooks/ETL.ipynb`           | Data loading, cleaning, merging, and feature creation        |
-| `jupyter_notebooks/EDA.ipynb`          | Exploratory data analysis and hypothesis validation          |
-| `dashboard/Team1_TMdb_Hackathon.pbix`  | Power BI dashboard with success drivers and genre insights   |
-| `reports/model_predictions_JL.csv`     | Model predictions and risk level classifications             |
-| `reports/model_metrics_JL.csv`         | Performance metrics (accuracy, ROC-AUC, precision, recall)   |
-| `reports/feature_importance_JL.csv`    | Ranked feature importance scores                             |
-| `reports/benchmark_comparison_JL.csv`  | Model performance benchmarked by High Performer status       |
-| `requirements.txt`                     | Python dependencies and package versions                     |
-| `Procfile`                             | Heroku deployment configuration                              |
-| `setup.sh`                             | Environment setup script                                     |
-|`README.md`                             | Project documentation                                        |
+| File/Folder                                   | Purpose/Description                                                        |
+|-----------------------------------------------|----------------------------------------------------------------------------|
+| `Data/RAW/tmdb_5000_credits.csv`              | Raw credits data from TMDb                                                 |
+| `Data/RAW/tmdb_5000_movies.csv`               | Raw movies data from TMDb                                                  |
+| `Data/PROCESSED/movies_ready_for_EDA.csv`     | Cleaned and feature-engineered dataset for analysis                        |
+| `jupyter_notebooks/ETL.ipynb`                 | Data loading, cleaning, merging, and feature creation                      |
+| `jupyter_notebooks/EDA.ipynb`                 | Exploratory data analysis and hypothesis validation                        |
+| `Dashboards/Horror_TMDb_dashboard.pbix`       | Power BI dashboard (horror genre focus, key KPIs, and industry drivers)    |
+| `Dashboards/Main_Page_TMDb_dashboard.pbix`    | Power BI dashboard (main overview, success drivers, and genre insights)    |
+| `reports/model_predictions_JL.csv`            | Model predictions and risk level classifications                           |
+| `reports/model_metrics_JL.csv`                | Performance metrics (accuracy, ROC-AUC, precision, recall)                 |
+| `reports/feature_importance_JL.csv`           | Ranked feature importance scores                                           |
+| `reports/benchmark_comparison_JL.csv`         | Model performance benchmarked by High Performer status                     |
+| `requirements.txt`                           | Python dependencies and package versions                                   |
+| `Procfile`                                   | Heroku deployment configuration                                            |
+| `setup.sh`                                   | Environment setup script                                                   |
+| `README.md`                                  | Project documentation                                                      |
 
 
 ## Project Plan
@@ -102,7 +95,7 @@ The dataset has many different variables that relate to the movie ranging from c
 * No legal or privacy issues identified as data was sourced from TMDb’s public Kaggle dataset.
 
 ## Dashboard Design
-- Power BI Dashboard: Interactive Power BI Dashboard with key KPIs, filters, sliders, and charts for movie success influencing factors (and genre-specific ones for the Horror dashboard).
+- Power BI Dashboards: Interactive Power BI Dashboard with key KPIs, filters, sliders, and charts for movie success influencing factors (and genre-specific ones for the Horror dashboard).
 - Purpose: Communicate feature importance and success drivers.
 - Audience: Production companies, investors, and decision-makers who need clear, actionable insights into which factors drive film success.
 - Note: Dashboard genre focus (Horror) provides a closer look at the horror genre and its key influencer drivers.
