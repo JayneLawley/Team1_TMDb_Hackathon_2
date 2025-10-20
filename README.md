@@ -14,6 +14,7 @@
 * Develop genre-specific dashboards that provide tailored insights and success factors for different film categories.
 
 ## Hypothesis Tested
+
 * **Hypothesis 1:** Movies that get a lot of thumbs up (or votes average) are likely to be an indicator of movie success 
 * **Hypothesis 2:** Movie success is influenced  by Cast
 * **Hypothesis 3:** Movie success is influenced by Budget
