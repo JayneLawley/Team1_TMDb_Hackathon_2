@@ -51,7 +51,12 @@
 | `tmdb_5000_credits.csv`  | 40.04MB| 3       | 4803 |
 | `tmdb_5000_movies.csv`   | 5.7MB  | 20      | 4803 |
 
-| File/Folder                                   | Purpose/Description                                                        |
+
+## File Structure
+
+![alt text](image-2.png)
+
+| File/Folder Information                                | Purpose/Description                                                        |
 |-----------------------------------------------|----------------------------------------------------------------------------|
 | `Data/RAW/tmdb_5000_credits.csv`              | Raw credits data from TMDb                                                 |
 | `Data/RAW/tmdb_5000_movies.csv`               | Raw movies data from TMDb                                                  |
