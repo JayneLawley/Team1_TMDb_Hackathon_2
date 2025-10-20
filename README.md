@@ -32,12 +32,16 @@
 
 **Spearman Correlation (H2)** – Non-parametric correlation coefficient suitable for ordinal or skewed continuous data. Used to assess whether actor frequency correlates with success metrics across Revenue, ROI, and Ratings
 
+**Hypothesis 6** Genre Shapes Popularity: Tested using the Kruskal-Wallis H-test and post-hoc pairwise Mann-Whitney U tests. 
+
  **Key Findings:**
  - Hypothesis 1 – Ratings Matter, But Weakly: Statistically significant difference between high (7–10) and low (0–7) rated movies (p < 0.001). High-rated films average £90.9M revenue vs. £64.2M for low-rated, but weak correlation (r = ~0.3). Popularity correlates more strongly with revenue than ratings alone.
 - Hypothesis 2 – Cast Matters: Emerging Actors Outperform: Films with emerging casts outperform established/recurring actors across revenue, ROI, and ratings (all p < 0.001). Top individual actors (Tom Cruise, Tom Hanks, Ben Stiller) average £240M+ per film. Limited cast data warrants caution; exploratory findings only.
 - Hypothesis 3 – Budget Strongly Predicts Revenue: Strong positive Pearson correlation (r = 0.731, p < 0.001); budget explains ~53% of revenue variance. Higher-budget films show best median ROI (2.17x for high-budget vs. 1.50x for low-budget, p < 0.001). Trend holds in log-scaled sensitivity analysis; exceptions exist (some low-budget films achieve exceptional success).
 - Hypothesis 4 – Action Movies Show Higher Profit Potential: Statistically significant difference in both revenue and profit (both p < 0.001, one-sided test). Action films achieve higher mean and median profits, showing "high risk, high reward" pattern. Success rate similar to non-action, but when action films succeed, they generate substantially higher revenue.
 - Hypothesis – Non-English Films Rate Slightly Higher (H5 Not Supported): Significant difference found (t = -5.66, p < 0.001), but in opposite direction: non-English movies average 6.49 rating vs. 6.07 for English films. Japanese (7.05) and Italian (7.03) top ratings; English dominates by volume (4,505 of ~4,850 films).
+- Hypothesis 6 – Genre Shapes Popularity: Non-parametric tests confirmed significant differences in popularity between genres (p < 0.001). Action, Adventure, Sci-Fi, and Animation consistently ranked highest, while Drama, Music, and Documentary trailed behind. These differences are statistically and practically meaningful, showing that audience interest varies strongly by genre.
+
 
 
 - This dataset is split between 2 different CSV files:
@@ -99,10 +103,10 @@ The dataset has many different variables that relate to the movie ranging from c
 * No legal or privacy issues identified as data was sourced from TMDb’s public Kaggle dataset.
 
 ## Dashboard Design
-* **Power BI Dashboard** is currently being developed to present model insights and help stakeholders understand the key success drivers for Movie performance.
-* **Purpose:** Communicate feature importance, and success drivers
-* **Audience:** Production companies, investors, and decision-makers who need clear, actionable insights on which factors drive film success
-* **Note:** Dashboard genre focus (horror) to show a closer look inside this genre and its success drivers
+- Power BI Dashboard: Key KPIs, filters, and charts for movie success influencing factors (and genre-specific ones for the Horror dashboard)
+- Purpose: Communicate feature importance and success drivers
+- Audience: Production companies, investors, and decision-makers who need clear, actionable insights into which factors drive film success
+- Note: Dashboard genre focus (Horror) provides a closer look at this genre and its key success drivers
 
 ## Unfixed Bugs
 * Some missing cast or budget data limited model completeness.  
