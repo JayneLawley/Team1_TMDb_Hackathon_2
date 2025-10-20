@@ -33,7 +33,7 @@
 
 **Spearman Correlation (H2)** – Non-parametric correlation coefficient suitable for ordinal or skewed continuous data. Used to assess whether actor frequency correlates with success metrics across Revenue, ROI, and Ratings
 
-**Hypothesis 6** Genre Shapes Popularity: Tested using the Kruskal-Wallis H-test and post-hoc pairwise Mann-Whitney U tests. 
+**Genre Differences (H6)** Genre Shapes Popularity: Tested using the Kruskal-Wallis H-test and post-hoc pairwise Mann-Whitney U tests. 
 
  **Key Findings:**
  - Hypothesis 1 – Ratings Matter, But Weakly: Statistically significant difference between high (7–10) and low (0–7) rated movies (p < 0.001). High-rated films average £90.9M revenue vs. £64.2M for low-rated, but weak correlation (r = ~0.3). Popularity correlates more strongly with revenue than ratings alone.
@@ -42,7 +42,6 @@
 - Hypothesis 4 – Action Movies Show Higher Profit Potential: Statistically significant difference in both revenue and profit (both p < 0.001, one-sided test). Action films achieve higher mean and median profits, showing "high risk, high reward" pattern. Success rate similar to non-action, but when action films succeed, they generate substantially higher revenue.
 - Hypothesis – Non-English Films Rate Slightly Higher (H5 Not Supported): Significant difference found (t = -5.66, p < 0.001), but in opposite direction: non-English movies average 6.49 rating vs. 6.07 for English films. Japanese (7.05) and Italian (7.03) top ratings; English dominates by volume (4,505 of ~4,850 films).
 - Hypothesis 6 – Genre Shapes Popularity: Non-parametric tests confirmed significant differences in popularity between genres (p < 0.001). Action, Adventure, Sci-Fi, and Animation consistently ranked highest, while Drama, Music, and Documentary trailed behind. These differences are statistically and practically meaningful, showing that audience interest varies strongly by genre.
-
 
 
 - This dataset is split between 2 different CSV files:
@@ -89,7 +88,6 @@ The dataset has many different variables that relate to the movie ranging from c
 * **Feature Importance Analysis:** Identify which production attributes are strongest predictors of success across models
 * **Dashboard:** Build interactive Power BI Dashboard with one overview dashboard presenting success drivers and an example genre-specific dashboard for detailed genre insights
 
-
 ## Analysis Techniques Used
 
 * **Exploratory Data Analysis (EDA):** Visualisations (histograms, scatter plots, heatmaps) to understand feature distributions and relationships
@@ -100,14 +98,14 @@ The dataset has many different variables that relate to the movie ranging from c
 * **Feature Importance Analysis:** Identifying which production attributes have the strongest influence on success 
 
 ## Ethical considerations
-* The dataset is open-source and publicly available, containing no personal or identifiable data.  
+* The dataset is open-source and publicly available, and contains no personal or identifiable information.  
 * No legal or privacy issues identified as data was sourced from TMDb’s public Kaggle dataset.
 
 ## Dashboard Design
-- Power BI Dashboard: Key KPIs, filters, and charts for movie success influencing factors (and genre-specific ones for the Horror dashboard)
-- Purpose: Communicate feature importance and success drivers
-- Audience: Production companies, investors, and decision-makers who need clear, actionable insights into which factors drive film success
-- Note: Dashboard genre focus (Horror) provides a closer look at this genre and its key success drivers
+- Power BI Dashboard: Interactive Power BI Dashboard with key KPIs, filters, sliders, and charts for movie success influencing factors (and genre-specific ones for the Horror dashboard).
+- Purpose: Communicate feature importance and success drivers.
+- Audience: Production companies, investors, and decision-makers who need clear, actionable insights into which factors drive film success.
+- Note: Dashboard genre focus (Horror) provides a closer look at the horror genre and its key influencer drivers.
 
 ## Unfixed Bugs
 * Some missing cast or budget data limited model completeness.  
@@ -130,8 +128,6 @@ The dataset has many different variables that relate to the movie ranging from c
 
 ## Main Data Analysis Libraries
 
-## Main Data Analysis Libraries
-
 - Pandas (for data loading, cleaning, manipulation, and exploratory analysis)
 - NumPy (for numerical operations and array handling)
 - Matplotlib (for static data visualisations and plots)
@@ -146,9 +142,9 @@ The dataset has many different variables that relate to the movie ranging from c
 
 ## Credits 
 
-* We received support from our tutors Vasi Pavaloi for resolving project issues and understanding how to complete tasks.
-* We reference our course LMS system for help with best practice and code decsions.
-* We used Chat GPT 4.0 and GitHub CoPilot to help with problems, explain errors, and explore different ways to write and (or improve) functions and code
+* Our tutor Vasi Pavaloi for help resolving project issues and helping us understand how to complete tasks.
+* The course LMS system for guidance on best practices and code decisions.
+* Chat GPT 4.0 and GitHub CoPilot to help with problems, explain errors, and explore different ways to write and (or improve) functions and code
 
 ### Content 
 
